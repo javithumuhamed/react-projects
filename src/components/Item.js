@@ -11,23 +11,30 @@ const Item = ({title,desc,descLink,backgroundImage,LeftBtnTxt,LeftBtnLink,righBt
             <div className="item__container">
                 <div className="item__text">
                     <p>{title}</p>
-                    <div className="item__desc">
-                        <p>{desc}</p>
-                    </div>
                 </div>
+                <div className="item__desc">
+                        <p>{desc}</p>
+                </div>
+                
                 <div className="item__lowerthird">
 
                     <div className="item__buttons">
                     <Button imp='primary' text={LeftBtnTxt} link={LeftBtnLink}/>
-                    </div>
                     {twoButtons &&(
                     <Button imp='secondary' text={righBtnTxt} link={righBtnLink}/>
                         
                     )}
+                    </div>
+
+
+                    <div className='item__expand'>
                     {first &&(
                         <ExpandMoreIcon/>
                     )}
+                    </div>
+                    
                 </div>
+                
             </div>
         </div>
     )

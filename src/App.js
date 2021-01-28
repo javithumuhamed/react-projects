@@ -34,7 +34,6 @@ function App() {
 />
 <Item
   title='Model3'
-  twoButtons='true'
 
   desc="Order Online for Touchless Delivery"
   descLink=''
@@ -43,11 +42,11 @@ function App() {
   LeftBtnLink=''
   righBtnTxt='EXISTING INVENTORY'
   righBtnLink=''
+  twoButtons='true'
 
 />
 <Item
   title='ModelX'
-  twoButtons='true'
 
   desc="Order Online for Touchless Delivery"
   descLink=''
@@ -56,12 +55,12 @@ function App() {
   LeftBtnLink=''
   righBtnTxt='EXISTING INVENTORY'
   righBtnLink=''
+  twoButtons='true'
 
 />
 <Item
   title='ModelY'
   desc="Order Online for Touchless Delivery"
-  twoButtons='true'
 
   descLink=''
   backgroundImage ={ModelY}
@@ -69,12 +68,13 @@ function App() {
   LeftBtnLink=''
   righBtnTxt='EXISTING INVENTORY'
   righBtnLink=''
+  twoButtons='true'
+
 
 />
 <Item
   title='Lowest Cost Solar Panels in America'
   desc="Money-back Guarantee"
-  twoButtons='true'
 
   descLink=''
   backgroundImage ={SolarPanels}
@@ -82,11 +82,11 @@ function App() {
   LeftBtnLink=''
   righBtnTxt='LEARN MORE'
   righBtnLink=''
+  twoButtons='true'
 
 />
 <Item
   title='Solar for New Roofs'
-  twoButtons='true'
 
   desc="Solar Roof Cost Less Than a New Roof Plus Solar Panels"
   descLink=''
@@ -95,6 +95,7 @@ function App() {
   LeftBtnLink=''
   righBtnTxt='EXISTING INVENTORY'
   righBtnLink=''
+  twoButtons='true'
 
 />
 
@@ -105,9 +106,9 @@ function App() {
   descLink=''
   backgroundImage ={Accesories}
 
-  twoButtons='false'
   LeftBtnTxt='SHOP NOW'
   LeftBtnLink=''
+  
   
 />
 
